@@ -1,0 +1,28 @@
+<!--
+  ============================================================
+  Google Ads — Conversion Tracking
+  الموصى به: ركّبها عبر GTM → Tag Type = "Google Ads Conversion Tracking"
+  وربطها بـ Trigger "purchase" (Custom Event)
+  استبدل AW-XXXXXXXXXX/YYYYYYYYYYYY بـ Conversion ID/Label الحقيقي
+  ============================================================
+-->
+
+<!-- 1) Base — في كل الصفحات (لا حاجة له لو GTM ركّب gtag بالفعل) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-XXXXXXXXXX');
+</script>
+
+
+<!-- 2) Conversion Event — فقط صفحة شكراً / order-received -->
+<script>
+  gtag('event', 'conversion', {
+    'send_to':        'AW-XXXXXXXXXX/YYYYYYYYYYYY',
+    'value':          {{order_total}},
+    'currency':       'KWD',
+    'transaction_id': '{{order_id}}'
+  });
+</script>

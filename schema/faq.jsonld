@@ -1,0 +1,55 @@
+{
+  "_comment_ar": "FAQPage Schema — يُطبع في صفحة الأسئلة الشائعة أو داخل Homepage لو فيها قسم FAQ | أضف/احذف أسئلة حسب الحاجة",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "كم مدة شحن الكوينز؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "الشحن يتم فوراً خلال 10 إلى 30 دقيقة من تأكيد الطلب. في أوقات الذروة قد يستغرق أقصى 60 دقيقة."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل الشحن آمن وضد الباند؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نعم، نستخدم أحدث طرق الشحن الآمنة مع ضمان كامل ضد الباند. في حال حدوث أي مشكلة، نتحمل المسؤولية الكاملة."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ما هي طرق الدفع المتاحة؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نقبل بطاقة الائتمان (Visa/Mastercard)، مدى، Apple Pay، Google Pay، وتحويل بنكي."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "ما المنصات المدعومة؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ندعم PlayStation 4، PlayStation 5، Xbox One، Xbox Series X/S، و PC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل أحتاج تغيير كلمة المرور؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "لا، عملية الشحن تتم بدون تغيير كلمة المرور. فقط نحتاج الرمز الاحتياطي (Backup Code) وفتح Web App."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "هل يمكنني شحن كوينز Xbox؟",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "نعم، نوفر شحن كوينز FIFA 26 لـ Xbox One و Xbox Series X/S بنفس السرعة والضمان."
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_comment_ar": "ملف JSON-LD — Organization Schema | يُطبع داخل <script type='application/ld+json'> في <head> الصفحة الرئيسية فقط | عدّل logo + sameAs + telephone لو احتجت",
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "متجر برنس | Prinss Fut",
+  "alternateName": "Prinss Fut",
+  "url": "https://prinssfut.com",
+  "logo": "https://prinssfut.com/wp-content/uploads/logo.png",
+  "image": "https://prinssfut.com/wp-content/uploads/og-image.jpg",
+  "description": "أفضل متجر لشحن كوينز FIFA 26 و EA FC 26 في الوطن العربي. شحن فوري، ضمان ضد الباند، دعم 24/7.",
+  "foundingDate": "2020",
+  "sameAs": [
+    "https://instagram.com/prinss_fut",
+    "https://wa.me/96566838043"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": ["Arabic", "English"],
+    "telephone": "+965-6683-8043",
+    "email": "info@prinssfut.com",
+    "areaServed": ["KW", "SA", "AE", "QA", "BH", "OM"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "KW"
+  }
+}

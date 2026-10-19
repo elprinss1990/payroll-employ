@@ -1,0 +1,25 @@
+{
+  "_comment_ar": "قالب Breadcrumb Schema — يُطبع في كل صفحة ما عدا الرئيسية | عدّل العناصر حسب مسار كل صفحة | ملف schema-injection.php يبنيها ديناميكياً من WooCommerce",
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "الرئيسية",
+      "item": "https://prinssfut.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "المتجر",
+      "item": "https://prinssfut.com/shop/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "كوينز فيفا 26",
+      "item": "https://prinssfut.com/product-category/fc26-coins/"
+    }
+  ]
+}

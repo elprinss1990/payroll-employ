@@ -1,0 +1,50 @@
+# ============================================================
+# robots.txt — متجر برنس (Prinssfut.com)
+# يُلصق في جذر الموقع: https://prinssfut.com/robots.txt
+# ============================================================
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /?add-to-cart=
+Disallow: /*?s=
+Allow: /wp-admin/admin-ajax.php
+
+# السماح لـ Googlebot بالوصول لصفحات المتجر الأساسية
+User-agent: Googlebot
+Allow: /product/
+Allow: /product-category/
+Allow: /shop/
+Allow: /*.css$
+Allow: /*.js$
+Disallow: /wp-admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+
+# منع فهرسة صفحات الفلترة/الترتيب (منع duplicate content)
+User-agent: *
+Disallow: /*?*filter*
+Disallow: /*?*orderby*
+Disallow: /*?*min_price*
+Disallow: /*?*max_price*
+Disallow: /*?*add-to-cart=
+Disallow: /*?*wc-ajax=
+
+# منع botات غير مرغوبة
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://prinssfut.com/sitemap_index.xml
+Sitemap: https://prinssfut.com/product-sitemap.xml
+Sitemap: https://prinssfut.com/page-sitemap.xml

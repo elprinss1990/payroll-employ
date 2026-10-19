@@ -1,0 +1,36 @@
+{
+  "_comment_ar": "قالب Product Schema — استبدل placeholders بقيم المنتج الفعلية | يُطبع في <head> صفحة كل منتج | في WooCommerce استخدم ملف wordpress/schema-injection.php الذي يملؤها تلقائياً",
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{PRODUCT_NAME}}",
+  "image": [
+    "{{PRODUCT_IMAGE_URL}}"
+  ],
+  "description": "{{PRODUCT_DESCRIPTION}}",
+  "sku": "{{PRODUCT_SKU}}",
+  "mpn": "{{PRODUCT_SKU}}",
+  "brand": {
+    "@type": "Brand",
+    "name": "EA Sports FC 26"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "{{PRODUCT_URL}}",
+    "priceCurrency": "KWD",
+    "price": "{{PRODUCT_PRICE}}",
+    "priceValidUntil": "2026-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "name": "متجر برنس | Prinss Fut"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "1250",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
